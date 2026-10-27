@@ -18,6 +18,11 @@
 | 网页版 | `waiyu-180-app` 在浏览器 SpeechSynthesis 不可用（微信内置浏览器）时的降级发音 |
 | 小程序版 | 待接入（需云开发/备案域名，见主仓 README） |
 
+## 配套数据集
+
+结构化数据（2340 句 + 7000 词，含 audio_url 字段）单独发布：
+**https://github.com/chengjian19740507-afk/waiyu-180-dataset**（npm: `waiyu-180`）
+
 ## 重新生成
 
 ```
