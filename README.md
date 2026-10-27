@@ -2,10 +2,14 @@
 
 《出境无忧180句》离线发音音频库。
 
-- 13 语种 × 180 句 = 2340 个 mp3
+- 13 语种 × 180 句 = 2340 个句子音频
+- 7 语种 × 1000 词 = 7000 个词表音频
 - 引擎：macOS 内置 TTS（`say`），零成本、零 API key
 - 格式：mp3 / 48kbps / 22.05kHz 单声道
-- 目录：`audio/<lang>/<id>.mp3`，`manifest.json` 为句 ID → 原文映射
+- 目录：
+  - `audio/<lang>/<id>.mp3` — 句子，lang2 ∈ en es fr ar ru de hi pt ja ko vi it th
+  - `vocab_audio/<lang>/<rank>.mp3` — 词表，lang2 ∈ en es fr ar ru ja ko
+- `manifest.json` 为句 ID → 原文映射
 
 ## 用途
 
